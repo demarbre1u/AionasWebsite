@@ -1,3 +1,5 @@
-( () => {
-    console.log('test')
-})()
+$(document).ready( () => {
+    
+    $('#carousel').carousel()
+
+})

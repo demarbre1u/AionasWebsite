@@ -1,3 +1,92 @@
+@font-face {
+    font-family: ABeeZee;
+    src: url(../font/ABeeZee-Regular.ttf);
+}
+
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
+
+    font-family: ABeeZee, sans-serif;
+}
+
+header {
+    background-color: #ecf0f1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+#contact {
+    width: 100%;
+    background-color: #272835;
+    color: #ecf0f1;
+
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 100px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 500%;
+}
+
+#title img {
+    width: 30%;
+    padding: 20px 0;
+}
+
+#menu {
+    margin: 0;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 0;
+    padding-inline-start: 0
+}
+
+#menu li {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0 30px;
+    font-size: 150%;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #272835;
+}
+
+#carousel-wrapper {
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+}
+
+#carousel {
+    width: 80vw;
+    padding: 0;
+    margin: 0;
+}
+
+#carousel img {
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    margin-right: 5px;
 }
