@@ -28,6 +28,7 @@ header {
     background-color: #272835;
     color: #ecf0f1;
 
+    font-size: 100%;
     font-weight: bold;
     padding: 5px;
     padding-left: 20px;
@@ -62,9 +63,9 @@ header {
 #menu li {
     list-style: none;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 0 30px;
-    font-size: 150%;
+    font-size: 140%;
 }
 
 #menu li a {
@@ -95,6 +96,15 @@ header {
 }
 
 @media screen and (max-width: 640px) {
+    header {
+        position: initial;
+        opacity: 1;
+    }
+
+    #contact {
+        font-size: 80%;
+    }
+
     #title img {
         width: 30%;
     }
@@ -104,8 +114,7 @@ header {
     }
 
     #menu ul li {
-        font-size: 110%;
-        margin-bottom: 10px;
+        font-size: 100%;
     }
 
     #carousel {
