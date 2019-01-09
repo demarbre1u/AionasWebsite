@@ -26,7 +26,7 @@ header {
 
     font-weight: bold;
     padding: 5px;
-    padding-left: 100px;
+    padding-left: 20px;
 }
 
 #title {
@@ -34,7 +34,6 @@ header {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 500%;
 }
 
 #title img {
@@ -90,3 +89,22 @@ header {
 .icon {
     margin-right: 5px;
 }
+
+@media screen and (max-width: 640px) {
+    #title img {
+        width: 50%;
+    }
+    
+    #menu ul {
+      flex-direction: column;
+    }
+
+    #menu ul li {
+        font-size: 110%;
+        margin-bottom: 10px;
+    }
+
+    #carousel {
+        width: 100vw;
+    }
+  }
