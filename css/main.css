@@ -17,6 +17,10 @@ header {
     margin: 0;
     padding: 0;
     padding-top: 10px;
+
+    position: absolute;
+    z-index: 1;
+    opacity: 0.85;
 }
 
 #contact {
@@ -37,7 +41,7 @@ header {
 }
 
 #title img {
-    width: 30%;
+    width: 15%;
     padding: 20px 0;
 }
 
@@ -76,7 +80,7 @@ header {
 }
 
 #carousel {
-    width: 75vw;
+    width: 100vw;
     padding: 0;
     margin: 0;
 }
@@ -92,7 +96,7 @@ header {
 
 @media screen and (max-width: 640px) {
     #title img {
-        width: 50%;
+        width: 30%;
     }
     
     #menu ul {
