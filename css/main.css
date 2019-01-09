@@ -11,7 +11,7 @@ body {
     font-family: ABeeZee, sans-serif;
 }
 
-header {
+#base-header {
     background-color: #ecf0f1;
     width: 100%;
     margin: 0;
@@ -95,10 +95,25 @@ header {
     margin-right: 5px;
 }
 
+/*******************************************************************************************************
+ * RESPONSIVE
+ *******************************************************************************************************/
+
+#header-responsive {
+    display: none;
+}
+
+.navbar-brand img {
+    width: 35vw;
+}
+
 @media screen and (max-width: 640px) {
-    header {
-        position: initial;
-        opacity: 1;
+    #base-header {
+        display: none;
+    }
+
+    #header-responsive {
+        display: inline;
     }
 
     #contact {
@@ -120,4 +135,4 @@ header {
     #carousel {
         width: 100vw;
     }
-  }
+}
