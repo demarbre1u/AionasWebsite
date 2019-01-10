@@ -1,7 +1,7 @@
 $(document).ready( () => {
     
     $('#carousel').carousel({
-        interval: 2000
+        interval: 4000
     })
 
 })
