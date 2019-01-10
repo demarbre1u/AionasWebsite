@@ -40,9 +40,9 @@ body {
 }
 
 #title img {
-    width: 15vw;
+    width: 200px;;
     min-width: 50%;
-    padding: 20px 40px;
+    padding: 15px 40px;
 }
 
 #menu {
@@ -65,7 +65,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0 30px;
-    font-size: 140%;
+    font-size: 120%;
 }
 
 #menu li a {
@@ -105,6 +105,10 @@ body {
 
 .navbar-brand img {
     width: 35vw;
+}
+
+.nav-link {
+    text-align: right;
 }
 
 @media screen and (max-width: 640px) {
